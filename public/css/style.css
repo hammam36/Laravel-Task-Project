@@ -1,0 +1,147 @@
+/* Global Styles */
+body {
+    background-color: #f8f9fa; /* Light background */
+    font-family: 'Arial', sans-serif; /* Clean font style */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+h1 {
+    color: #007bff;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 8px 15px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    color: white;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border: none;
+    padding: 6px 10px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    color: white;
+    border-radius: 5px;
+}
+
+.btn-danger:hover {
+    background-color: #b02a37;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    border: none;
+    padding: 6px 10px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    color: white;
+    border-radius: 5px;
+}
+
+.btn-warning:hover {
+    background-color: #e0a800;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border: none;
+    padding: 8px 15px;
+    font-size: 14px;
+    color: white;
+    border-radius: 5px;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+/* Table */
+table {
+    border-radius: 5px;
+    overflow: hidden;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+th {
+    background-color: #007bff;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+
+td {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Form Input */
+input[type="text"] {
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    padding: 8px 15px;
+    width: 100%;
+    max-width: 300px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #0056b3;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Utility Classes */
+.mt-2 {
+    margin-top: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.shadow-sm {
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.bg-light {
+    background-color: #f8f9fa;
+}
+
+.rounded {
+    border-radius: 8px;
+}
